@@ -1,0 +1,35 @@
+{
+  "name": "email-sender-service",
+  "version": "1.0.0",
+  "description": "Scalable email service for OTP and transactional emails with custom SMTP server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "smtp": "node src/smtp-server/index.js",
+    "smtp:dev": "nodemon src/smtp-server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["email", "smtp", "otp", "transactional"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "aws-sdk": "^2.1498.0",
+    "@sendgrid/mail": "^8.1.0",
+    "mailgun-js": "^0.22.0",
+    "bull": "^4.11.5",
+    "redis": "^4.6.10",
+    "express-rate-limit": "^7.1.5",
+    "dotenv": "^16.3.1",
+    "handlebars": "^4.7.8",
+    "joi": "^17.11.0",
+    "winston": "^3.11.0",
+    "nodemon": "^3.0.2",
+    "smtp-server": "^3.13.0",
+    "mailparser": "^3.6.5",
+    "dns": "^0.2.2",
+    "bcrypt": "^5.1.1"
+  }
+}

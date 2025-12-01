@@ -1,0 +1,36 @@
+{
+  "totalSent": 3,
+  "totalFailed": 0,
+  "byProvider": {
+    "undefined": 3
+  },
+  "byTemplate": {
+    "otp": 3
+  },
+  "byDay": {
+    "2025-12-01": 3
+  },
+  "recentEmails": [
+    {
+      "to": "sumnthhkhs@gmail.com",
+      "template": "otp",
+      "success": true,
+      "messageId": "3",
+      "timestamp": "2025-12-01T06:28:31.594Z"
+    },
+    {
+      "to": "sumnthhkhs@gmail.com",
+      "template": "otp",
+      "success": true,
+      "messageId": "2",
+      "timestamp": "2025-12-01T05:58:19.416Z"
+    },
+    {
+      "to": "sumnthhkhs@gmail.com",
+      "template": "otp",
+      "success": true,
+      "messageId": "1",
+      "timestamp": "2025-12-01T05:57:21.227Z"
+    }
+  ]
+}
